@@ -1,0 +1,28 @@
+{
+  "name": "mu-requirejs-shadow",
+  "homepage": "https://github.com/mu-lib/mu-requirejs-shadow",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mu-lib/mu-requirejs-shadow.git"
+  },
+  "authors": [
+    "Mikael Karon",
+    "Tristan Guo"
+  ],
+  "description": "Micro RequireJS Shadow",
+  "main": "require.shadow.js",
+  "moduleType": [
+    "amd"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test"
+  ],
+  "dependencies": {
+    "requirejs": "~2.1",
+    "requirejs-text": "~2"
+  }
+}
